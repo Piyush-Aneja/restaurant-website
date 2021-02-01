@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signin.css">
+</head>
+<body>
+    <form onsubmit="return validate()" action="restaurant.html/">
+       <div id="container">
+           <h1>Sign in:</h1>
+        <div>
+            <label for="usname"><span id="Name">Name:</span></label>
+            <label class="error_msg" style="visibility:hidden">Invalid</label>      
+            <input type="text" name="useername" id="usname" placeholder="Username">
+            
+        </div> 
+       <br>
+              <div>
+                  <label for="pass"><span>Password:</span></label>
+
+                <input type="password" name="pass" id="pass" placeholder="Password">
+                <label class="error_msg" style="visibility:hidden">Password/Username Mismatch</label> 
+            </div>
+
+       </div> 
+
+      
+      
+      
+   <button type="submit">Submit</button>
+   
+    </form>
+
+    <script src="authentication.js"></script>
+</body>
+</html>

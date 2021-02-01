@@ -1,0 +1,72 @@
+body{
+    background-image:linear-gradient(to left,rgb(124, 117, 194),black);
+    color:white;       
+}
+       
+span{
+    display:inline-block;
+   
+     }
+     div div{
+         margin:10px 10px;
+     }
+    
+
+     input{
+        display:flex;
+       float:center;
+     }
+   .error_msg{
+         
+         position: absolute;
+         left:60%;
+         text-decoration:underline;
+         font-family:cursive;
+         font-weight:bold;
+       
+         
+     }
+     #container{
+         width:40%;
+         /* margin:9% 30%; */
+         /* align-items: center; */
+         /* justify-content: center; */
+         margin:auto;
+         /* border:2px solid black; */
+     }
+
+     button{
+         border-radius: 10%;
+        margin-top:30px;
+    width:8%;
+    height: 20%;
+    margin:3% 36%;
+    position: relative;
+cursor: pointer;
+right:4%;
+     }   
+        button:hover{
+            background-color:rgb(236, 225, 225);
+        }
+           
+        
+
+        #container h1{
+            position:relative;
+           padding:0% 3%;
+        }
+
+        form
+        {
+            position: relative;
+            top:2rem;
+            left:2%;
+            
+            border:2px solid black;
+        }
+    @media(max-width:500px)
+    {
+        button{
+            width:auto
+        }
+    }
